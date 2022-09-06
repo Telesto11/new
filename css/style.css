@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: rgb(237, 230, 205);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header img {
+  max-width: 380px;
+}
+header p {
+  letter-spacing: 0.3px;
+}
+
+.wrapper {
+  letter-spacing: 0.3px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  margin: 0 0 20px 0;
+}
+
+.content {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.text__info {
+  font-size: 16px;
+  line-height: 28px;
+}
+.text__info p {
+  padding: 10px 0 20px 0;
+}
+.text__variant {
+  outline: auto;
+  margin: 0 0 20px 0;
+  width: 800px;
+}
+
+.footer {
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__title {
+  font-size: 20px;
+  padding: 20px 0 0 0;
+  margin: 0 auto;
+  background-color: rgb(39, 38, 38);
+}
+.footer__foot {
+  display: flex;
+  background-color: rgb(39, 38, 38);
+}
+.footer__icon img {
+  max-width: 280px;
+}
+.footer__text {
+  margin: 30px 0 0 20px;
+  font-size: 16px;
+}
+.footer__info {
+  -webkit-text-decoration: center;
+          text-decoration: center;
+  background-color: black;
+  color: white;
+}
